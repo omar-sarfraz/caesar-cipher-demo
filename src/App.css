@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input > input {
+    width: 70%;
+    padding: 3px 5px;
+}
+
+.input > label {
+    width: 30%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 1.5rem;
+}
+
+.buttons > button {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 3px 0;
+}
